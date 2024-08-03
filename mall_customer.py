@@ -6,7 +6,7 @@ import seaborn as sns
 from sklearn.cluster import KMeans
 
 # Load the dataset
-df = pd.read_csv(r'C:\Users\astuti\Pictures\DATA MINING_CLUSTER\Mall_Customers.csv')
+df = pd.read_csv(r'Mall_Customers.csv')
 
 # Rename columns
 df.rename(columns={
